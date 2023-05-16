@@ -2,6 +2,12 @@ const gg = document.querySelector('#gg')
 const ap = document.querySelector('#ap')
 const av = document.querySelector('#av')
 const sh = document.querySelector('#sh')
+const x = document.querySelector('#x')
+
+x.addEventListener ('click', function(){
+  document.querySelector('.all')
+  .classList.add('close')
+})
 
 gg.addEventListener ('mouseover', function(){
   document.querySelector('#gg')
@@ -38,5 +44,3 @@ sh.addEventListener ('mouseout', function(){
   document.querySelector('#sh')
   .classList.remove('fade')
 })
-
-
